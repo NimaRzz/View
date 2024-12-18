@@ -8,7 +8,7 @@ let items2 = document.getElementById(`items2`);
 let items3 = document.getElementById(`items3`);
 let items4 = document.getElementById(`items4`);
 
-btn1.addEventListener(`click`, btn1Items); //seda nazani tabe ro chi mishe?
+btn1.addEventListener(`click`, btn1Items); 
 function btn1Items(){
     
     items1.style.display=`flex`;
@@ -19,7 +19,7 @@ function btn1Items(){
     
 }
 
-btn2.addEventListener(`click`, btn2Items); //seda nazani tabe ro chi mishe?
+btn2.addEventListener(`click`, btn2Items); 
 function btn2Items(){
     items1.style.display=`none`;
     items2.style.display=`flex`;
@@ -27,7 +27,7 @@ function btn2Items(){
     items4.style.display=`none`;
 }
 
-btn3.addEventListener(`click`, btn3Items); //seda nazani tabe ro chi mishe?
+btn3.addEventListener(`click`, btn3Items); 
 function btn3Items(){
     items1.style.display=`none`;
     items2.style.display=`none`;
@@ -35,7 +35,7 @@ function btn3Items(){
     items4.style.display=`none`;
 }
 
-btn4.addEventListener(`click`, btn4Items); //seda nazani tabe ro chi mishe?
+btn4.addEventListener(`click`, btn4Items); 
 function btn4Items(){
     items1.style.display=`none`;
     items2.style.display=`none`;
